@@ -7,14 +7,14 @@
     <remote name="linux4"          fetch="https://github.com/Linux4"/>
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="android-13" />
-    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="android-13" />
-    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="android-13" />
-    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="android-13" />
-    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"         revision="android-13" />
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="android-13" />
-    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"         revision="android-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="android-13" />
+    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"         revision="spark-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="spark-13" />
 
     <!--Vendors Trees-->
     <project name="android_vendor_samsung_beyond0lte"           path="vendor/samsung/beyond0lte"        remote="source"         revision="android-13"   clone-depth="1" />
