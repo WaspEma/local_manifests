@@ -5,7 +5,6 @@
     <remote name="source"          fetch="https://github.com/awakened1712"/>
     <remote name="LineageOS"       fetch="https://github.com/LineageOS" />
     <remote name="linux4"          fetch="https://github.com/Linux4"/>
-    <remote name="mtg"             fetch="https://gitlab.com/MindTheGapps"/>
 
     <!--Devices Trees-->
     <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="android-13" />
@@ -33,13 +32,5 @@
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
-
-    <!-- GApps -->
-    <project name="vendor_gapps"                                path="vendor/gapps"                     remote="mtg"            revision="tau" />
-
-    <!-- frameworks/base -->
-    <remove-project name="crdroidandroid/android_frameworks_base" />
-    <project name="android_frameworks_base"                     path="frameworks/base"                  remote="source"         revision="13.0-alpha" />
-
 
 </manifest>
